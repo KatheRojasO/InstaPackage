@@ -13,12 +13,7 @@ export default function InvalidPackage() {
     <div className="error-page">
       <NavBar />
       <div className="error-page-container">
-        <FontAwesomeIcon
-          icon={solid("heart-crack")}
-          fade
-          size="7x"
-          style={{ color: "#ff7878" }}
-        />
+        <FontAwesomeIcon icon={solid("heart-crack")} fade size="3x" />
         <p>{translation("invalidpackage:text")}</p>
         <button className="goback-btn" onClick={() => navigate(-1)}>
           {translation("parcelsection:go-back")}

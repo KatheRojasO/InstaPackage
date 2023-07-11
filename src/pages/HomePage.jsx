@@ -16,8 +16,7 @@ export default function HomePage() {
         <FontAwesomeIcon
           icon={solid("hand-holding-heart")}
           beatFade
-          size="7x"
-          style={{ color: "#ff7878" }}
+          size="3x"
         />
         <p>{translation("homepage:text")}</p>
         <button className="start-btn" onClick={() => navigate("/parcels")}>

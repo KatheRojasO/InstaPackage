@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import i18n from "../scripts/i18n";
 import ukflag from "../assets/flags/uk.svg";
 import data from "../data/dropdown-btn.json";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [language, setLanguage] = useState("en");
@@ -29,7 +30,9 @@ export default function NavBar() {
 
   return (
     <nav className="navigation-bar">
-      <h1>InstaPackage</h1>
+      <Link to={"/parcels"}>
+        <h1>InstaPackage</h1>
+      </Link>
       <div className="dropdown">
         <button className="main-btn">
           <span>{selectedLanguage}</span>

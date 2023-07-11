@@ -9,14 +9,9 @@ export default function Error() {
   return (
     <div className="error-page">
       <NavBar />
-      <div className="error-container">
-        <FontAwesomeIcon
-          icon={solid("triangle-exclamation")}
-          beat
-          size="7x"
-          style={{ color: "#ff7878" }}
-        />
-        <p className="logo">An error has ocurred, please refresh the page!</p>
+      <div className="error-page-container">
+        <FontAwesomeIcon icon={solid("triangle-exclamation")} beat size="3x" />
+        <p className="logo">{translation("errorpage:text")}</p>
       </div>
     </div>
   );

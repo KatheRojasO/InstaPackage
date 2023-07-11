@@ -9,14 +9,9 @@ export default function NotFound() {
   return (
     <div className="error-page">
       <NavBar />
-      <div className="error-container">
-        <FontAwesomeIcon
-          icon={solid("triangle-exclamation")}
-          beat
-          size="5x"
-          style={{ color: "#ff7878" }}
-        />
-        <p className="logo">{translation("notfoundpage:text")}</p>
+      <div className="error-page-container">
+        <FontAwesomeIcon icon={solid("triangle-exclamation")} beat size="3x" />
+        <p>{translation("notfoundpage:text")}</p>
       </div>
     </div>
   );
