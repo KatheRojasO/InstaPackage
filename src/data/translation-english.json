@@ -25,5 +25,11 @@
   "homepage": {
     "text": "Find your packages with InstaPackage! It's easy!",
     "start": "Start"
+  },
+  "notfoundpage": {
+    "text": "Upps! It seems like this page doesn't exist!"
+  },
+  "errorpage": {
+    "text": "An error has ocurred, please refresh the page!"
   }
 }

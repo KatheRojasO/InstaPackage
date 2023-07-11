@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import TrackingSection from "../pages/TrackingSection";
 import ParcelSection from "../pages/ParcelSection";
+import NotFound from "./NotFound";
 
 export default function Router({ orders }) {
   return (
@@ -14,6 +15,7 @@ export default function Router({ orders }) {
           path="/parcels/:parcel_id"
           element={<ParcelSection orders={orders} />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

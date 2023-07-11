@@ -25,5 +25,8 @@
   "homepage": {
     "text": "Encuentra tus paquetes con InstaPackage! Es fácil!",
     "start": "Comenzar"
+  },
+  "notfoundpage":{
+    "text": "Upps! Parece que esta página no existe!"
   }
 }

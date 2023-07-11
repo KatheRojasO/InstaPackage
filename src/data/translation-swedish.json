@@ -13,7 +13,7 @@
   },
   "parcelsection": {
     "title": "Paket från",
-    "time":"Beräknad leveranstid",
+    "time": "Beräknad leveranstid",
     "update": "Senaste uppdatering",
     "notes": "Observera",
     "verification": "Verifikation krävs",
@@ -25,5 +25,11 @@
   "homepage": {
     "text": "Hitta dina paket med InstaPackage! Det är lätt!",
     "start": "Start"
+  },
+  "notfoundpage": {
+    "text": "Hoppsan! Det verkar som om den här sidan inte existerar!"
+  },
+  "errorpage": {
+    "text": "Ett fel har uppstått, vänligen uppdatera sidan!"
   }
 }
