@@ -16,7 +16,7 @@ export default function InvalidPackage() {
         <FontAwesomeIcon icon={solid("heart-crack")} fade size="3x" />
         <p>{translation("invalidpackage:text")}</p>
         <button className="goback-btn" onClick={() => navigate(-1)}>
-          {translation("parcelsection:go-back")}
+          {translation("parceldetail:go-back")}
         </button>
       </div>
     </div>

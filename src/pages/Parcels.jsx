@@ -15,9 +15,10 @@ export default function TrackingSection({ orders }) {
       <NavBar />
       <div className="tracking-section-container">
         <h1 className="title">
-          {translation("trackingsection:greetings")} {orders[0].user_name}
+          {translation("parcels:greetings")}
+          {orders[0].user_name}
         </h1>
-        <p className="description">{translation("trackingsection:description")}</p>
+        <p className="description">{translation("parcels:description")}</p>
         <section className="parcel-list">{ordersList}</section>
       </div>
     </div>

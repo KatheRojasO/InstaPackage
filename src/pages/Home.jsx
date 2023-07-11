@@ -18,9 +18,9 @@ export default function HomePage() {
           beatFade
           size="3x"
         />
-        <p>{translation("homepage:text")}</p>
+        <p>{translation("home:text")}</p>
         <button className="start-btn" onClick={() => navigate("/parcels")}>
-          {translation("homepage:start")}
+          {translation("home:start")}
         </button>
       </div>
     </div>

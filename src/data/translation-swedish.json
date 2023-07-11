@@ -1,5 +1,5 @@
 {
-  "trackingsection": {
+  "parcels": {
     "greetings": "Välkommen",
     "description": "Hos oss kan du enkelt spåra dina leveranser"
   },
@@ -11,7 +11,7 @@
       "delivered": "Levereras"
     }
   },
-  "parcelsection": {
+  "parceldetail": {
     "title": "Paket från",
     "time": "Beräknad leveranstid",
     "update": "Senaste uppdatering",
@@ -22,14 +22,14 @@
   "invalidpackage": {
     "text": "Hoppsan! Det verkar som att det här paketet inte existerar"
   },
-  "homepage": {
+  "home": {
     "text": "Hitta dina paket med InstaPackage! Det är lätt!",
     "start": "Start"
   },
-  "notfoundpage": {
+  "notfound": {
     "text": "Hoppsan! Det verkar som om den här sidan inte existerar!"
   },
-  "errorpage": {
+  "error": {
     "text": "Ett fel har uppstått, vänligen uppdatera sidan!"
   }
 }

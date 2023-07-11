@@ -1,5 +1,5 @@
 {
-  "trackingsection": {
+  "parcels": {
     "greetings": "Bienvenido",
     "description": " Con nosotros fácilmente puedes rastrear tus entregas"
   },
@@ -11,7 +11,7 @@
       "delivered": "Entregado"
     }
   },
-  "parcelsection": {
+  "parceldetail": {
     "title": "Paquete de",
     "time": "Tiempo estimado",
     "update": "Última actualización",
@@ -22,11 +22,11 @@
   "invalidpackage": {
     "text": "Upps! Parece que esta página no existe"
   },
-  "homepage": {
+  "home": {
     "text": "Encuentra tus paquetes con InstaPackage! Es fácil!",
     "start": "Comenzar"
   },
-  "notfoundpage":{
+  "notfound":{
     "text": "Upps! Parece que esta página no existe!"
   }
 }

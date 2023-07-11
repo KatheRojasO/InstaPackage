@@ -26,7 +26,7 @@ export default function ParcelSection({ orders }) {
       <div className="parcel-section-container">
         <div className="content">
           <h2 className="title">
-            {translation("parcelsection:title")} {parcel.sender}
+            {translation("parceldetail:title")} {parcel.sender}
           </h2>
           <div className="location-info">
             <img src={pinIcon} alt="location-icon" className="pin-icon" />
@@ -34,16 +34,16 @@ export default function ParcelSection({ orders }) {
           </div>
           <Map coordinates={[latitude, longitude]} />
           <p className="arrival-time">
-            {translation("parcelsection:time")}: {deliveryDate} {deliveryTime}
+            {translation("parceldetail:time")}: {deliveryDate} {deliveryTime}
           </p>
           {parcel.notes && (
             <p className="notes">
-              {translation("parcelsection:notes")}: {parcel.notes}
+              {translation("parceldetail:notes")}: {parcel.notes}
             </p>
           )}
         </div>
         <button className="goback-btn" onClick={() => navigate(-1)}>
-          {translation("parcelsection:go-back")}
+          {translation("parceldetail:go-back")}
         </button>
       </div>
     </div>

@@ -11,7 +11,7 @@ export default function Error() {
       <NavBar />
       <div className="error-page-container">
         <FontAwesomeIcon icon={solid("triangle-exclamation")} beat size="3x" />
-        <p className="logo">{translation("errorpage:text")}</p>
+        <p className="logo">{translation("error:text")}</p>
       </div>
     </div>
   );

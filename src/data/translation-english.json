@@ -1,5 +1,5 @@
 {
-  "trackingsection": {
+  "parcels": {
     "greetings": "Welcome",
     "description": "With us you can easily track your deliveries"
   },
@@ -11,7 +11,7 @@
       "delivered": "Delivered"
     }
   },
-  "parcelsection": {
+  "parceldetail": {
     "title": "Package from",
     "time": "Estimated delivery time",
     "update": "Last update",
@@ -22,14 +22,14 @@
   "invalidpackage": {
     "text": "Upps! It seems like this package doesn't exist"
   },
-  "homepage": {
+  "home": {
     "text": "Find your packages with InstaPackage! It's easy!",
     "start": "Start"
   },
-  "notfoundpage": {
+  "notfound": {
     "text": "Upps! It seems like this page doesn't exist!"
   },
-  "errorpage": {
+  "error": {
     "text": "An error has ocurred, please refresh the page!"
   }
 }
