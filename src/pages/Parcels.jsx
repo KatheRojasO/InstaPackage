@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 export default function TrackingSection({ orders }) {
   const { t: translation } = useTranslation();
 
+  console.log(orders)
+
   const ordersList = orders.map((item) => (
     <ParcelCard key={item.id} item={item} />
   ));
