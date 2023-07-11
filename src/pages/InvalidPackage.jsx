@@ -1,18 +1,29 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import NavBar from "../components/NavBar";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function InvalidPackage() {
   const navigate = useNavigate();
+  const { t: translation } = useTranslation();
 
   return (
     <div className="error-page">
-      <div className="container">
-        <img className="error-img" alt="package"/>
-        <h2>Upps! It seems like this package doesn't exist</h2>
+      <NavBar />
+      <div className="error-page-container">
+        <FontAwesomeIcon
+          icon={solid("heart-crack")}
+          fade
+          size="2xl"
+          style={{ color: "#ff7878" }}
+        />
+        <p>{translation("invalidpackage:text")}</p>
         <button className="goback-btn" onClick={() => navigate(-1)}>
-          Go back
+          {translation("parcelsection:go-back")}
         </button>
       </div>
     </div>
-  )
+  );
 }

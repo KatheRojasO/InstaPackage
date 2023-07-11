@@ -18,5 +18,8 @@
     "notes": "Notes",
     "verification": "Verification required",
     "go-back": "Go back"
+  },
+  "invalidpackage": {
+    "text": "Upps! It seems like this package doesn't exist"
   }
 }

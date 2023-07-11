@@ -18,5 +18,8 @@
     "notes": "Observera",
     "verification": "Verifikation krävs",
     "go-back": "Gå tillbaka"
+  },
+  "invalidpackage": {
+    "text": "Hoppsan! Det verkar som att det här paketet inte existerar"
   }
 }

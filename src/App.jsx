@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Router from "./components/Router";
+import Loading from "./components/Loading";
+import Error from "./components/Error";
 import "./style/style.sass";
 
 export default function App() {
@@ -24,9 +26,9 @@ export default function App() {
 
   return (
     <div className="App">
-      {status === 0 && <p>Loading ...🕔</p>}
+      {status === 0 && <Loading/>}
       {status === 1 && <Router orders={orders}/>}
-      {status === 2 && <p>Error ❗</p>}   
+      {status === 2 && <Error/>}   
     </div>
   );
 }

@@ -13,11 +13,13 @@
   },
   "parcelsection": {
     "title": "Paquete de",
-    "time":"Tiempo estimado",
+    "time": "Tiempo estimado",
     "update": "Última actualización",
     "notes": "Notas",
     "verification": "Verificación requerida",
     "go-back": "Regresar"
-
+  },
+  "invalidpackage": {
+    "text": "Upps! Parece que esta página no existe"
   }
 }
