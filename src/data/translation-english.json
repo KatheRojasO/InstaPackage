@@ -1,0 +1,22 @@
+{
+  "trackingsection": {
+    "greetings": "Welcome",
+    "description": "With us you can easily track your deliveries"
+  },
+  "parcelcard": {
+    "status": {
+      "order-info-received": "Order info received",
+      "on-the-way": "On the way",
+      "ready-for-pickup": "Ready for pickup",
+      "delivered": "Delivered"
+    }
+  },
+  "parcelsection": {
+    "title": "Package from",
+    "time": "Estimated delivery time",
+    "update": "Last update",
+    "notes": "Notes",
+    "verification": "Verification required",
+    "go-back": "Go back"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "language": "en",
+    "flag": "/images/flagIcons/uk.svg"
+  },
+  {
+    "id": 2,
+    "language": "sv",
+    "flag": "/images/flagIcons/sweden.svg"
+  },
+  {
+    "id": 3,
+    "language": "es",
+    "flag": "/images/flagIcons/spain.svg"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "trackingsection": {
+    "greetings": "Bienvenido",
+    "description": " Con nosotros fácilmente puedes rastrear tus entregas"
+  },
+  "parcelcard": {
+    "status": {
+      "order-info-received": "Información de orden recibida",
+      "on-the-way": "En camino",
+      "ready-for-pickup": "Listo para recoger",
+      "delivered": "Entregado"
+    }
+  },
+  "parcelsection": {
+    "title": "Paquete de",
+    "time":"Tiempo estimado",
+    "update": "Última actualización",
+    "notes": "Notas",
+    "verification": "Verificación requerida",
+    "go-back": "Regresar"
+
+  }
+}

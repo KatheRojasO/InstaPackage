@@ -1,0 +1,51 @@
+.navigation-bar
+  background-color: #ff3e3e
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 0 20px
+  box-shadow: 0 2px 10px rgba(0,0,0,.1)
+
+.dropdown
+  cursor: pointer
+
+.main-btn
+  background-color: transparent
+  border: none
+  display: flex
+  align-items: center
+  padding: 0
+  span
+    padding-right: 5px
+    font-weight: bold
+    color: white
+
+.dropdown:hover .dropdown-content
+  display: block
+
+.dropdown-btn
+  display: flex
+  align-items: center
+  background-color: transparent
+  border: none
+  cursor: pointer
+  margin-top: 5px
+  span 
+    color: white
+    font-weight: bold
+    margin-right: 5px
+
+.dropdown-content
+  display: flex
+  flex-direction: column
+  display: none
+  position: absolute
+  background-color: #ff3e3e
+  min-width: 75px
+  padding: 5px
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+  z-index: 1
+  right: 0.5px
+
+.dropdown-flags
+  width: 30px

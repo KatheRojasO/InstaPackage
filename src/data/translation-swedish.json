@@ -1,0 +1,22 @@
+{
+  "trackingsection": {
+    "greetings": "Välkommen",
+    "description": "Hos oss kan du enkelt spåra dina leveranser"
+  },
+  "parcelcard": {
+    "status": {
+      "order-info-received": "Orderinfo mottagen",
+      "on-the-way": "På väg",
+      "ready-for-pickup": "Redo för upphämtning",
+      "delivered": "Levereras"
+    }
+  },
+  "parcelsection": {
+    "title": "Paket från",
+    "time":"Beräknad leveranstid",
+    "update": "Senaste uppdatering",
+    "notes": "Observera",
+    "verification": "Verifikation krävs",
+    "go-back": "Gå tillbaka"
+  }
+}
