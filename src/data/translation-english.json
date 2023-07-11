@@ -21,5 +21,9 @@
   },
   "invalidpackage": {
     "text": "Upps! It seems like this package doesn't exist"
+  },
+  "homepage": {
+    "text": "Find your packages with InstaPackage! It's easy!",
+    "start": "Start"
   }
 }

@@ -5,23 +5,23 @@ import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-export default function InvalidPackage() {
+export default function HomePage() {
   const navigate = useNavigate();
   const { t: translation } = useTranslation();
 
   return (
-    <div className="error-page">
+    <div className="home-page">
       <NavBar />
-      <div className="error-page-container">
+      <div className="home-page-container">
         <FontAwesomeIcon
-          icon={solid("heart-crack")}
-          fade
+          icon={solid("hand-holding-heart")}
+          beatFade
           size="7x"
           style={{ color: "#ff7878" }}
         />
-        <p>{translation("invalidpackage:text")}</p>
-        <button className="goback-btn" onClick={() => navigate(-1)}>
-          {translation("parcelsection:go-back")}
+        <p>{translation("homepage:text")}</p>
+        <button className="start-btn" onClick={() => navigate("/parcels")}>
+          {translation("homepage:start")}
         </button>
       </div>
     </div>

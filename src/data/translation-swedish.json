@@ -21,5 +21,9 @@
   },
   "invalidpackage": {
     "text": "Hoppsan! Det verkar som att det här paketet inte existerar"
+  },
+  "homepage": {
+    "text": "Hitta dina paket med InstaPackage! Det är lätt!",
+    "start": "Start"
   }
 }
