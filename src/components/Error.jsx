@@ -6,6 +6,8 @@ import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function Error() {
   const { t: translation } = useTranslation();
+  
+  // formating leave a space between properties and the return
   return (
     <div className="error-page">
       <NavBar />

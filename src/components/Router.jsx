@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-import TrackingSection from "../pages/TrackingSection";
-import ParcelSection from "../pages/ParcelSection";
+import ParcelDetail from "../pages/ParcelDetail";
+import Parcels from "../pages/Parcels";
 import NotFound from "./NotFound";
 
 export default function Router({ orders }) {
@@ -10,13 +10,17 @@ export default function Router({ orders }) {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/parcels" element={<TrackingSection orders={orders} />} />
-        <Route
-          path="/parcels/:parcel_id"
-          element={<ParcelSection orders={orders} />}
-        />
+        <Route path="/parcels" element={<Parcels orders={orders} />} />
+        <Route path="/parcels/:id" element={<ParcelDetail orders={orders} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
+
+  // Naming:
+  // ParcelSection: is a page with parcels ✅
+  // ParcelPage: is a page with parcels ✅
+  // Parcels: is a page with parcels ✅✅✅
+  // Parl : is a page with parcels ❌
+  // P : is a page with parcels ❌
 }

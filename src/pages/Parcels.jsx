@@ -17,7 +17,9 @@ export default function TrackingSection({ orders }) {
         <h1 className="title">
           {translation("trackingsection:greetings")} {orders[0].user_name}
         </h1>
-        <p className="description">{translation("trackingsection:description")}</p>
+        <p className="description">
+          {translation("trackingsection:description")}
+        </p>
         <section className="parcel-list">{ordersList}</section>
       </div>
     </div>

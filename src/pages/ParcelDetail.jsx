@@ -7,15 +7,17 @@ import Map from "../components/Map";
 import InvalidPackage from "./InvalidPackage";
 import pinIcon from "../assets/icons/location-dot-solid.svg";
 
-export default function ParcelSection({ orders }) {
-  const params = useParams();
+export default function ParcelDetail({ orders }) {
+  const { id } = useParams();
   const navigate = useNavigate();
   const { t: translation } = useTranslation();
 
-  const parcel = orders.find((parcel) => parcel.parcel_id === params.parcel_id);
+  const parcel = orders.find((parcel) => parcel.parcel_id === id);
 
   if (parcel === undefined || parcel === null) return <InvalidPackage />;
 
+  const latitude = parcel.location_coordinate_latitude;
+  const longitude = parcel.location_coordinate_longitude;
   const deliveryDate = getFullDate(parcel.eta);
   const deliveryTime = getShortTime(parcel.eta);
 
@@ -31,12 +33,7 @@ export default function ParcelSection({ orders }) {
             <img src={pinIcon} alt="location-icon" className="pin-icon" />
             <p className="location-name">{parcel.location_name}</p>
           </div>
-          <Map
-            coordinates={[
-              parcel.location_coordinate_latitude,
-              parcel.location_coordinate_longitude,
-            ]}
-          />
+          <Map coordinates={[latitude, longitude]} />
           <p className="arrival-time">
             {translation("parcelsection:time")}: {deliveryDate} {deliveryTime}
           </p>

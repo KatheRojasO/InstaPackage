@@ -3,6 +3,15 @@ import i18n from "../scripts/i18n";
 import ukflag from "../assets/flags/uk.svg";
 import data from "../data/dropdown-btn.json";
 
+/**
+ * 1. imports
+ * 2. global state
+ * 3. local state
+ * 4. properties
+ * 5. methods
+ * 6. JSX (return)
+ */
+
 export default function NavBar() {
   const [language, setLanguage] = useState("en");
   const [iconFlag, setIconFlag] = useState(ukflag);
@@ -25,14 +34,12 @@ export default function NavBar() {
     </button>
   ));
 
-  const selectedLanguage = language.toUpperCase();
-
   return (
     <nav className="navigation-bar">
       <h1>InstaPackage</h1>
       <div className="dropdown">
         <button className="main-btn">
-          <span>{selectedLanguage}</span>
+          <span>{language}</span>
           <img src={iconFlag} alt="language-flag" className="dropdown-flags" />
         </button>
         <div className="dropdown-content">{dropdownItems}</div>
