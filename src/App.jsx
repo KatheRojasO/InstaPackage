@@ -9,7 +9,7 @@ export default function App() {
   const [orders, setOrders] = useState([]);
 
   const endpoint =
-    "https://my.api.mockaroo.com/insta-orders.json?key=e49e68401";
+    "https://my.api.mockaroo.com/insta-orders.json?key=e49e6840";
 
   useEffect(() => {
     fetchData();
