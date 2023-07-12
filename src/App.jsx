@@ -14,7 +14,13 @@ export default function App() {
     fetchData();
   }, []);
 
-  // good
+  /**
+   * Great!
+   * You see no need for Axios.
+   * I'm still waiting for some student to give me a specific scenario were Axios is better than the native fetch()
+   * Also, go to package.json and remove line 13, so you don't install Axios every time you clone the repository.
+   * It makes your project lighter and more professional looking as you take care not only of the imports but the downlaods as well.
+   */
   async function fetchData() {
     const request = await fetch(endpoint);
 
