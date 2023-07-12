@@ -6,7 +6,8 @@ import { useTranslation } from "react-i18next";
 export default function TrackingSection({ orders }) {
   const { t: translation } = useTranslation();
 
-  console.log(orders)
+  console.log(orders); // remove log comments after using them
+  // the exeption is console.error(error) on a fetch, to know what happen on a specific device on a per case basis.
 
   const ordersList = orders.map((item) => (
     <ParcelCard key={item.id} item={item} />
